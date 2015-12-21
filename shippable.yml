@@ -1,4 +1,4 @@
-build_image: drydock/u14golpls:prod
+build_image: drydock/u12golpls:prod
 language: go
 
 go:
