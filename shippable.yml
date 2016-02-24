@@ -35,7 +35,7 @@ build:
     - go get github.com/t-yuki/gocover-cobertura
     - go get github.com/onsi/gomega
     - go get github.com/onsi/ginkgo
-    - go get code.google.com/p/go.tools/cmd/cover
+    - go get golang.org/x/tools/cmd/cover
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
     - go test -coverprofile=coverage.txt -covermode count ./
